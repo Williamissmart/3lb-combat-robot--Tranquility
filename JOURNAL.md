@@ -6,7 +6,7 @@
   ==================================================================
 -->
 
-## 10/20/2025 - 3D design and Electronic Choices  
+## 10/20/2025 6 PM - 3D design and Electronic Choices  
 
 Today, I have started choosing the electronics for this. I already have a lot of experience with combat robotics, though in the 1lb weight class. The electronics are similar, just larger and more expensive. I have always liked Repeat Robotics and their electronics, so I'm selecting most of my drive motor, DESC and weapon ESC from them. They are high-quality and reliable in combat. I settled on these electronics:
 Drive Motor - Repeat Drive Pro
@@ -21,4 +21,23 @@ The start of my 3D design was rough, laying out all the electronics in Fusion360
 ![B02AEBEC-291B-4430-9738-CEF6E92DE5D7.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6Mzg1NSwicHVyIjoiYmxvYl9pZCJ9fQ==--1d22533bf5b8bd9f0bad000cffe083caafff3251/B02AEBEC-291B-4430-9738-CEF6E92DE5D7.png)
 ![4E838E3D-4F06-4878-BA7C-8BD72E0AF3FD.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6Mzg1NCwicHVyIjoiYmxvYl9pZCJ9fQ==--32edb332c1a806176afd2619b7a0b8fa05c122fb/4E838E3D-4F06-4878-BA7C-8BD72E0AF3FD.png)
   
+
+## 10/20/2025 10 PM - 1.6mm Titanium Wedge  
+
+![C4F0D2D3-BE0B-446D-9C22-BAA367159159.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MzkwOSwicHVyIjoiYmxvYl9pZCJ9fQ==--eb9b04aee3e73e492f2a3330a8bbf6cf219006ac/C4F0D2D3-BE0B-446D-9C22-BAA367159159.png)
+
+After being obliterated in the 1lb class by horizontal spinners, I have invested in a 1.6mm titanium wedge to counter those pesky horizontal spinners. The point of a wedge is to deflect an impact from the horizontal spinner, then hit it with my vertical spinner, which means it is meant to be shot and destroyed. Titanium might not seem like an obvious choice when considering armour, as it's not as strong as steel or as light as magnesium or aluminum, but landing on this material required some thought. Titanium is light and fairly strong, which strikes a careful balance, optimizing weight and durability. 
+
+To save weight, I decided to remove the center part connecting the two wedges, so instead of one large piece, it will be two separate pieces, partly inspired by Chain Saw Kitty's wedge. When asking seasoned builders about the effectiveness of this design, as long as the inside edge of the wedge is bent inwards, it should serve the same purpose. 
+
+![800px-Chainsaw_Kitty_-_Teams_2024.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MzkxMywicHVyIjoiYmxvYl9pZCJ9fQ==--a673aaaf6149d510deb392a5b1a3837ab9d422f0/800px-Chainsaw_Kitty_-_Teams_2024.png)
+(Reference image for this wedge design)
+
+At first, the holes were too close to the bend line, which, when bending this in practice, would bend from the hole line instead of the intended line. This was also pointed out, which might have saved me a lot of headache and trouble when bending.
+
+The mounting system of the wedge is also intricate, while robust. It has a larger slope compared to the fork configuration, since the more angled it is, the less force is absorbed while having more material behind, since it's on an angle.
+
+Modelling a sheet metal for the first time was extremely difficult, not knowing the angles for the bends and the geometry of the wedge to sit flush with the ground. This took a lot of trial and error, taking way longer than I expected. 
+
+A wedge also increased the weight, which now exceeded the 3lb weight limit by ~70g, so I will have to figure out where to save and relocate this weight.  
 
