@@ -6,7 +6,7 @@
   ==================================================================
 -->
 
-## 10/20/2025 6 PM - 3D design and Electronic Choices  
+## 10/15/2025 6 PM - 3D design and Electronic Choices  
 
 Today, I have started choosing the electronics for this. I already have a lot of experience with combat robotics, though in the 1lb weight class. The electronics are similar, just larger and more expensive. I have always liked Repeat Robotics and their electronics, so I'm selecting most of my drive motor, DESC and weapon ESC from them. They are high-quality and reliable in combat. I settled on these electronics:
 Drive Motor - Repeat Drive Pro
