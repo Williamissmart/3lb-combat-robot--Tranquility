@@ -6,7 +6,7 @@
   ==================================================================
 -->
 
-## 10/15/2025 6 PM - 3D design and Electronic Choices  
+## 10/20/2025 6 PM - 3D design and Electronic Choices  
 
 Today, I have started choosing the electronics for this. I already have a lot of experience with combat robotics, though in the 1lb weight class. The electronics are similar, just larger and more expensive. I have always liked Repeat Robotics and their electronics, so I'm selecting most of my drive motor, DESC and weapon ESC from them. They are high-quality and reliable in combat. I settled on these electronics:
 Drive Motor - Repeat Drive Pro
@@ -40,4 +40,23 @@ The mounting system of the wedge is also intricate, while robust. It has a large
 Modelling a sheet metal for the first time was extremely difficult, not knowing the angles for the bends and the geometry of the wedge to sit flush with the ground. This took a lot of trial and error, taking way longer than I expected. 
 
 A wedge also increased the weight, which now exceeded the 3lb weight limit by ~70g, so I will have to figure out where to save and relocate this weight.  
+
+## 10/21/2025 - Stress Simulation of Weapon Panel and Adjustments  
+
+After asking for feedback on the aluminum weapon panel, I have told most of the force of a hit will be going downwards, instead of horizontal to the ground. This mean the main vertical struct is too thin to withstand huge hits and the material supporting the weapon horizontally is just a huge waste of weight.
+
+![akjrhgaer.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NDE0NCwicHVyIjoiYmxvYl9pZCJ9fQ==--691739819674eee827c6311cd3c912075d55cd30/akjrhgaer.png)
+![lakwjhef.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NDE0MywicHVyIjoiYmxvYl9pZCJ9fQ==--efbb8e33efe2b23ddb3c0d973e3f8ea56c8adda0/lakwjhef.png)
+
+These were the suggestions from seasoned builders, and after running some simulations, the recommended solutions performed 46% better at impact resistance. The Fusion 360 simulations took a long time to learn and analyze on my decently specced PC. But the data collected was extremely valuable.
+
+Another problem pointed out to me was the position of my carbon fibre uprights. The point of these carbon fibre parts is supposed to help flip the robot in the case that the robot is flipped. They are attacked with 3 m3 screws with a locknut on the other end. So it turns out there wasn't enough space for these locknuts and the weapon pulley. After some deliberation, I moved the entire part downwards, giving it a unique look, and surprisingly good geometry for self-righting for such a large diameter weapon.
+
+This is the revised version of the weapon system : ![Screenshot 2025-09-30 at 11.31.47 AM.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NDE1MCwicHVyIjoiYmxvYl9pZCJ9fQ==--8f1356e29435a540334bc4d8cedd9a0572633f81/Screenshot%202025-09-30%20at%2011.31.47%E2%80%AFAM.png)
+
+![Screenshot 2025-09-30 at 11.32.05 AM.png](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6NDE0OSwicHVyIjoiYmxvYl9pZCJ9fQ==--0071d825c82f4dd5547ab74cb8aee6d0df9e3a37/Screenshot%202025-09-30%20at%2011.32.05%E2%80%AFAM.png)
+
+As you can see here, I have also made a weapon disk. They are not symmetrical, but they are perfectly balanced. I love art, and while working on robotics, I've come to appreciate the rounded corners and arcs. This weapon has a lot of bits and is optimized for a 2D geometry for MOI (moment of inertia).
+
+  
 
